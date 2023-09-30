@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "start": "npx tsc && node build/index.js",
+    "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "test": "echo \" Error: no teste specified\" && exit1 "
+  }
+}
